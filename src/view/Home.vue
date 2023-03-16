@@ -7,7 +7,7 @@ quizes.value = quiz;
 </script>
 <template>
   <div>
-    <h2>Quiz Game{{ message }}</h2>
+    <h2>Quiz Game</h2>
     <div class="question-container">
       <TransitionGroup name="list" appear>
         <QuestionTypeCard v-for="quiz in quizes" :key="quiz.id" :quiz="quiz" />

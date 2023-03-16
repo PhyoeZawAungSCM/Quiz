@@ -1,18 +1,17 @@
 <script setup>
 import { RouterView } from 'vue-router';
 import { reactive, onMounted } from 'vue';
-const data = reactive({
-  person: {
-    name: "Mg mg"
-  }
-});
-
-onMounted(() => {
-  console.log("person in data", data.person);
-  const newPerson = { name: "haha" };
-  data.person = newPerson;
-  console.log(data.person === newPerson)
-})
+// const data = reactive({
+//   person: {
+//     name: "Mg mg"
+//   }
+// });
+// onMounted(() => {
+//   console.log("person in data", data.person);
+//   const newPerson = { name: "haha" };
+//   data.person = newPerson;
+//   console.log(data.person === newPerson)
+// })
 </script>
 <template>
   <div class="container">
